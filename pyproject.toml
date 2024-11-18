@@ -1,0 +1,11 @@
+[project]
+name = "collatex-practice"
+version = "0.1.0"
+description = "Notebook showing example caselaw text comparison using CollateX"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "collatex>=2.3",
+    "graphviz>=0.20.3",
+    "python-levenshtein>=0.26.1",
+]
